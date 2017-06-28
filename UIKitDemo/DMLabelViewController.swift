@@ -10,6 +10,7 @@ import UIKit
 
 class DMLabelViewController: DMRootViewController {
     let label = UILabel()
+    let attrLabel = UILabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,8 @@ class DMLabelViewController: DMRootViewController {
         label.frame = CGRect(x: 20, y: 100, width: ScreenWidth - 40, height: 60)
         label.backgroundColor = UIColor.cyan
         
+        attrLabel.frame = CGRect(x: Double(label.frame.minX), y: Double(label.frame.maxY), width: Double(label.frame.width), height: 30)
+        attrLabel.backgroundColor = UIColor.yellow
         //设置文本
         label.text = "这里是Label，也就是显示文字的视图.这里只展示常用的属性吧"
         
@@ -46,7 +49,13 @@ class DMLabelViewController: DMRootViewController {
         //阴影的偏移量
         label.shadowOffset = CGSize(width: 2, height: 2)
         
+        //富文本设置
+        let attrStr = NSAttributedString(string: "属性字符串，可以设置带有格式的字符串", attributes: [NSFontAttributeName:UIFont.boldSystemFont(ofSize: 13),
+            NSForegroundColorAttributeName:UIColor.black])
+        attrLabel.attributedText = attrStr
+        
         self.view.addSubview(label)
+        self.view.addSubview(attrLabel)
     }
 
     override func didReceiveMemoryWarning() {
