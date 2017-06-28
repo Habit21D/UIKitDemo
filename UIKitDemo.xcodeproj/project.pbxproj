@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		182AB24A1F0362E300C9A540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AB2491F0362E300C9A540 /* AppDelegate.swift */; };
-		182AB24C1F0362E300C9A540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AB24B1F0362E300C9A540 /* ViewController.swift */; };
 		182AB24F1F0362E300C9A540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AB24D1F0362E300C9A540 /* Main.storyboard */; };
 		182AB2511F0362E300C9A540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182AB2501F0362E300C9A540 /* Assets.xcassets */; };
 		182AB2541F0362E300C9A540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AB2521F0362E300C9A540 /* LaunchScreen.storyboard */; };
@@ -18,12 +17,13 @@
 		18B74C441F037C9F000915B2 /* DMButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C431F037C9F000915B2 /* DMButtonViewController.swift */; };
 		18B74C461F037D8D000915B2 /* DMRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C451F037D8D000915B2 /* DMRootViewController.swift */; };
 		18B74C481F037F20000915B2 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C471F037F20000915B2 /* Global.swift */; };
+		18B74C4A1F03B3E3000915B2 /* DMTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C491F03B3E3000915B2 /* DMTextFieldViewController.swift */; };
+		18B74C4C1F03BAA8000915B2 /* DMImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C4B1F03BAA8000915B2 /* DMImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		182AB2461F0362E300C9A540 /* UIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182AB2491F0362E300C9A540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		182AB24B1F0362E300C9A540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182AB24E1F0362E300C9A540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182AB2501F0362E300C9A540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182AB2531F0362E300C9A540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		18B74C431F037C9F000915B2 /* DMButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMButtonViewController.swift; sourceTree = "<group>"; };
 		18B74C451F037D8D000915B2 /* DMRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMRootViewController.swift; sourceTree = "<group>"; };
 		18B74C471F037F20000915B2 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		18B74C491F03B3E3000915B2 /* DMTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMTextFieldViewController.swift; sourceTree = "<group>"; };
+		18B74C4B1F03BAA8000915B2 /* DMImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				182AB2491F0362E300C9A540 /* AppDelegate.swift */,
-				182AB24B1F0362E300C9A540 /* ViewController.swift */,
 				18B74C471F037F20000915B2 /* Global.swift */,
 				18B74C451F037D8D000915B2 /* DMRootViewController.swift */,
 				182AB25B1F03631200C9A540 /* DemoListViewController.swift */,
@@ -86,6 +87,8 @@
 				18B74C411F037C90000915B2 /* DMViewViewController.swift */,
 				18B74C3F1F037C7E000915B2 /* DMLabelViewController.swift */,
 				18B74C431F037C9F000915B2 /* DMButtonViewController.swift */,
+				18B74C4B1F03BAA8000915B2 /* DMImageViewController.swift */,
+				18B74C491F03B3E3000915B2 /* DMTextFieldViewController.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -164,11 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B74C481F037F20000915B2 /* Global.swift in Sources */,
-				182AB24C1F0362E300C9A540 /* ViewController.swift in Sources */,
+				18B74C4A1F03B3E3000915B2 /* DMTextFieldViewController.swift in Sources */,
 				18B74C441F037C9F000915B2 /* DMButtonViewController.swift in Sources */,
 				182AB24A1F0362E300C9A540 /* AppDelegate.swift in Sources */,
 				18B74C461F037D8D000915B2 /* DMRootViewController.swift in Sources */,
 				18B74C401F037C7E000915B2 /* DMLabelViewController.swift in Sources */,
+				18B74C4C1F03BAA8000915B2 /* DMImageViewController.swift in Sources */,
 				182AB25C1F03631200C9A540 /* DemoListViewController.swift in Sources */,
 				18B74C421F037C90000915B2 /* DMViewViewController.swift in Sources */,
 			);

@@ -20,7 +20,7 @@ class DMLabelViewController: DMRootViewController {
         label.frame = CGRect(x: 20, y: 100, width: ScreenWidth - 40, height: 60)
         label.backgroundColor = UIColor.cyan
         
-        attrLabel.frame = CGRect(x: Double(label.frame.minX), y: Double(label.frame.maxY), width: Double(label.frame.width), height: 30)
+        attrLabel.frame = CGRect(x: Double(label.frame.minX), y: Double(label.frame.maxY) + 20, width: Double(label.frame.width), height: 30)
         attrLabel.backgroundColor = UIColor.yellow
         //设置文本
         label.text = "这里是Label，也就是显示文字的视图.这里只展示常用的属性吧"

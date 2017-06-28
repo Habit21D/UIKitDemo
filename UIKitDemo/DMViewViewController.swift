@@ -30,7 +30,7 @@ class DMViewViewController: DMRootViewController {
     func redViewSetting() {
         //swift的代码提示：在输入CGRect之后输入（ 会自动提示初始化方法
         //* view的位置设置（有frame,bounds,center三个属性）
-        redView.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        redView.frame = CGRect(x: 100, y: 200, width: 100, height: 100)
         
         //* view的背景色设置
         redView.backgroundColor = UIColor.red
