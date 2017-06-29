@@ -13,6 +13,16 @@
 		182AB2541F0362E300C9A540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AB2521F0362E300C9A540 /* LaunchScreen.storyboard */; };
 		182AB25C1F03631200C9A540 /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AB25B1F03631200C9A540 /* DemoListViewController.swift */; };
 		183177E51F04A19300B79B06 /* Image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177E41F04A19300B79B06 /* Image1.png */; };
+		183177F11F04A7D600B79B06 /* tiantiansifangmao-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177E61F04A7D600B79B06 /* tiantiansifangmao-01.png */; };
+		183177F21F04A7D600B79B06 /* tiantiansifangmao-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177E71F04A7D600B79B06 /* tiantiansifangmao-02.png */; };
+		183177F31F04A7D600B79B06 /* tiantiansifangmao-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177E81F04A7D600B79B06 /* tiantiansifangmao-03.png */; };
+		183177F41F04A7D600B79B06 /* tiantiansifangmao-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177E91F04A7D600B79B06 /* tiantiansifangmao-04.png */; };
+		183177F51F04A7D600B79B06 /* tiantiansifangmao-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177EA1F04A7D600B79B06 /* tiantiansifangmao-05.png */; };
+		183177F61F04A7D600B79B06 /* tiantiansifangmao-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177EB1F04A7D600B79B06 /* tiantiansifangmao-06.png */; };
+		183177F71F04A7D600B79B06 /* tiantiansifangmao-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177EC1F04A7D600B79B06 /* tiantiansifangmao-07.png */; };
+		183177F81F04A7D600B79B06 /* tiantiansifangmao-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177ED1F04A7D600B79B06 /* tiantiansifangmao-08.png */; };
+		183177F91F04A7D600B79B06 /* tiantiansifangmao-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177EE1F04A7D600B79B06 /* tiantiansifangmao-09.png */; };
+		183177FA1F04A7D600B79B06 /* tiantiansifangmao-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177EF1F04A7D600B79B06 /* tiantiansifangmao-10.png */; };
 		18B74C401F037C7E000915B2 /* DMLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C3F1F037C7E000915B2 /* DMLabelViewController.swift */; };
 		18B74C421F037C90000915B2 /* DMViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C411F037C90000915B2 /* DMViewViewController.swift */; };
 		18B74C441F037C9F000915B2 /* DMButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C431F037C9F000915B2 /* DMButtonViewController.swift */; };
@@ -31,6 +41,16 @@
 		182AB2551F0362E300C9A540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182AB25B1F03631200C9A540 /* DemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
 		183177E41F04A19300B79B06 /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image1.png; sourceTree = "<group>"; };
+		183177E61F04A7D600B79B06 /* tiantiansifangmao-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-01.png"; sourceTree = "<group>"; };
+		183177E71F04A7D600B79B06 /* tiantiansifangmao-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-02.png"; sourceTree = "<group>"; };
+		183177E81F04A7D600B79B06 /* tiantiansifangmao-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-03.png"; sourceTree = "<group>"; };
+		183177E91F04A7D600B79B06 /* tiantiansifangmao-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-04.png"; sourceTree = "<group>"; };
+		183177EA1F04A7D600B79B06 /* tiantiansifangmao-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-05.png"; sourceTree = "<group>"; };
+		183177EB1F04A7D600B79B06 /* tiantiansifangmao-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-06.png"; sourceTree = "<group>"; };
+		183177EC1F04A7D600B79B06 /* tiantiansifangmao-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-07.png"; sourceTree = "<group>"; };
+		183177ED1F04A7D600B79B06 /* tiantiansifangmao-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-08.png"; sourceTree = "<group>"; };
+		183177EE1F04A7D600B79B06 /* tiantiansifangmao-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-09.png"; sourceTree = "<group>"; };
+		183177EF1F04A7D600B79B06 /* tiantiansifangmao-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiantiansifangmao-10.png"; sourceTree = "<group>"; };
 		18B74C3F1F037C7E000915B2 /* DMLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMLabelViewController.swift; sourceTree = "<group>"; };
 		18B74C411F037C90000915B2 /* DMViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMViewViewController.swift; sourceTree = "<group>"; };
 		18B74C431F037C9F000915B2 /* DMButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMButtonViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +120,16 @@
 			isa = PBXGroup;
 			children = (
 				183177E41F04A19300B79B06 /* Image1.png */,
+				183177E61F04A7D600B79B06 /* tiantiansifangmao-01.png */,
+				183177E71F04A7D600B79B06 /* tiantiansifangmao-02.png */,
+				183177E81F04A7D600B79B06 /* tiantiansifangmao-03.png */,
+				183177E91F04A7D600B79B06 /* tiantiansifangmao-04.png */,
+				183177EA1F04A7D600B79B06 /* tiantiansifangmao-05.png */,
+				183177EB1F04A7D600B79B06 /* tiantiansifangmao-06.png */,
+				183177EC1F04A7D600B79B06 /* tiantiansifangmao-07.png */,
+				183177ED1F04A7D600B79B06 /* tiantiansifangmao-08.png */,
+				183177EE1F04A7D600B79B06 /* tiantiansifangmao-09.png */,
+				183177EF1F04A7D600B79B06 /* tiantiansifangmao-10.png */,
 			);
 			name = Image;
 			sourceTree = "<group>";
@@ -165,6 +195,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				182AB2541F0362E300C9A540 /* LaunchScreen.storyboard in Resources */,
+				183177F81F04A7D600B79B06 /* tiantiansifangmao-08.png in Resources */,
+				183177FA1F04A7D600B79B06 /* tiantiansifangmao-10.png in Resources */,
+				183177F61F04A7D600B79B06 /* tiantiansifangmao-06.png in Resources */,
+				183177F41F04A7D600B79B06 /* tiantiansifangmao-04.png in Resources */,
+				183177F91F04A7D600B79B06 /* tiantiansifangmao-09.png in Resources */,
+				183177F21F04A7D600B79B06 /* tiantiansifangmao-02.png in Resources */,
+				183177F71F04A7D600B79B06 /* tiantiansifangmao-07.png in Resources */,
+				183177F11F04A7D600B79B06 /* tiantiansifangmao-01.png in Resources */,
+				183177F51F04A7D600B79B06 /* tiantiansifangmao-05.png in Resources */,
+				183177F31F04A7D600B79B06 /* tiantiansifangmao-03.png in Resources */,
 				182AB2511F0362E300C9A540 /* Assets.xcassets in Resources */,
 				183177E51F04A19300B79B06 /* Image1.png in Resources */,
 				182AB24F1F0362E300C9A540 /* Main.storyboard in Resources */,
