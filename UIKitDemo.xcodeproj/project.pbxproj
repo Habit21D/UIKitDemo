@@ -12,6 +12,7 @@
 		182AB2511F0362E300C9A540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182AB2501F0362E300C9A540 /* Assets.xcassets */; };
 		182AB2541F0362E300C9A540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AB2521F0362E300C9A540 /* LaunchScreen.storyboard */; };
 		182AB25C1F03631200C9A540 /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AB25B1F03631200C9A540 /* DemoListViewController.swift */; };
+		183177E51F04A19300B79B06 /* Image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183177E41F04A19300B79B06 /* Image1.png */; };
 		18B74C401F037C7E000915B2 /* DMLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C3F1F037C7E000915B2 /* DMLabelViewController.swift */; };
 		18B74C421F037C90000915B2 /* DMViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C411F037C90000915B2 /* DMViewViewController.swift */; };
 		18B74C441F037C9F000915B2 /* DMButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74C431F037C9F000915B2 /* DMButtonViewController.swift */; };
@@ -29,6 +30,7 @@
 		182AB2531F0362E300C9A540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182AB2551F0362E300C9A540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182AB25B1F03631200C9A540 /* DemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
+		183177E41F04A19300B79B06 /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image1.png; sourceTree = "<group>"; };
 		18B74C3F1F037C7E000915B2 /* DMLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMLabelViewController.swift; sourceTree = "<group>"; };
 		18B74C411F037C90000915B2 /* DMViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMViewViewController.swift; sourceTree = "<group>"; };
 		18B74C431F037C9F000915B2 /* DMButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMButtonViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				18B74C471F037F20000915B2 /* Global.swift */,
 				18B74C451F037D8D000915B2 /* DMRootViewController.swift */,
 				182AB25B1F03631200C9A540 /* DemoListViewController.swift */,
+				183177E31F04A18000B79B06 /* Image */,
 				182AB25D1F037B8A00C9A540 /* UIKit */,
 				182AB24D1F0362E300C9A540 /* Main.storyboard */,
 				182AB2501F0362E300C9A540 /* Assets.xcassets */,
@@ -91,6 +94,14 @@
 				18B74C491F03B3E3000915B2 /* DMTextFieldViewController.swift */,
 			);
 			name = UIKit;
+			sourceTree = "<group>";
+		};
+		183177E31F04A18000B79B06 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				183177E41F04A19300B79B06 /* Image1.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			files = (
 				182AB2541F0362E300C9A540 /* LaunchScreen.storyboard in Resources */,
 				182AB2511F0362E300C9A540 /* Assets.xcassets in Resources */,
+				183177E51F04A19300B79B06 /* Image1.png in Resources */,
 				182AB24F1F0362E300C9A540 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

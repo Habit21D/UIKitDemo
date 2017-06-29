@@ -12,6 +12,7 @@ enum ListType : String {
     case UIView = "UIView"
     case UILabel = "UILabel"
     case UIButton = "UIButton"
+    case UIImageView = "UIImageView"
     case UITextField = "UITextField"
 }
 
@@ -24,7 +25,7 @@ class DemoListViewController: DMRootViewController,UITableViewDelegate,UITableVi
     }()
     
     lazy var dataArray: Array = { () -> [ListType] in
-        let tempArray = [ListType.UIView,ListType.UILabel,ListType.UIButton,ListType.UITextField];
+        let tempArray = [ListType.UIView,ListType.UILabel,ListType.UIButton,ListType.UIImageView,ListType.UITextField];
         
         return tempArray;
     }()
@@ -75,6 +76,9 @@ class DemoListViewController: DMRootViewController,UITableViewDelegate,UITableVi
             break
         case .UITextField:
             vc = DMTextFieldViewController()
+            break
+        case .UIImageView:
+            vc = DMImageViewController()
             break
          //....
         }

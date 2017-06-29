@@ -10,5 +10,6 @@
 * UIView
 * UILabel
 * UIButton
+* UIImageView
 * UITextField
 * 更新中。。。
